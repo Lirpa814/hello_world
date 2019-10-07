@@ -3,7 +3,14 @@ using namespace std;
 
 int main()
 {
-	cout << "Hello, Earth !" << endl;
+	int num1= 0;
+	int num2= 0;
+	char symbol = ' ';
+
+	cin >> num1>> num2>> symbol;
+
+	if (symbol == '/')
+		cout << num1/ num2<< endl;
 
 	return 0;
 }
